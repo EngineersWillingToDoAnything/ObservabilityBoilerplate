@@ -1,0 +1,15 @@
+docker_compose:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "compose*.yml"
+          - "compose*.yaml"
+          - "**/compose*.yml"
+          - "**/compose*.yaml"
+          - "docker-compose*.yml"
+          - "docker-compose*.yaml"
+          - "**/docker-compose*.yml"
+          - "**/docker-compose*.yaml"
+
+github_actions:
+  - changed-files:
+      - any-glob-to-any-file: ".github/**"

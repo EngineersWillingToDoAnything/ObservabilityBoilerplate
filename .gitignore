@@ -1,0 +1,6 @@
+.env
+secrets/
+
+# python generated files
+__pycache__
+.venv/
