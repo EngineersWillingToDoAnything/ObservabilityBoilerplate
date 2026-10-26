@@ -39,11 +39,11 @@ services:
 
   alloy-1:
     <<: *collector
-    image: grafana/alloy:v1.20.1
+    image: grafana/alloy:v1.21.2
 
   alloy-2:
     <<: *collector
-    image: grafana/alloy:v1.20.1
+    image: grafana/alloy:v1.21.2
 
   loki:
     image: grafana/loki:3.7
