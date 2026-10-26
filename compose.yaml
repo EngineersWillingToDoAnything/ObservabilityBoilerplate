@@ -81,7 +81,7 @@ services:
       - telemetry
 
   tempo:
-    image: grafana/tempo:3.1.0
+    image: grafana/tempo:3.1.1
     group_add:
       - "${TELEMETRY_SECRETS_GID:-1999}"
     volumes:
