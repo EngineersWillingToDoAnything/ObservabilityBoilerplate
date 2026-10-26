@@ -63,7 +63,7 @@ services:
       - telemetry
 
   mimir:
-    image: grafana/mimir:3.2.1
+    image: grafana/mimir:3.2.3
     group_add:
       - "${TELEMETRY_SECRETS_GID:-1999}"
     volumes:
